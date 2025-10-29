@@ -7,8 +7,9 @@ res.sendFile(__dirname +"/public/zadatak.html");
 });
 
 app.get("/about", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "about.html"));
+  res.sendFile(__dirname + "/public/about.html");
 });
+
 app.get("/users", (req, res) => {
   const users = [
     { id: 1, ime: "Ana", prezime: "Anić" },
