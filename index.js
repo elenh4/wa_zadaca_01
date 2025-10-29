@@ -15,6 +15,7 @@ app.get("/users", (req, res) => {
     { id: 1, ime: "Ana", prezime: "Anić" },
     { id: 2, ime: "Marko", prezime: "Marić" },
     { id: 3, ime: "Ivana", prezime: "Ivić" }
+    { id: 4, ime: "Luka", prezime : "Lukić"}
   ];
   res.json(users);
 });
